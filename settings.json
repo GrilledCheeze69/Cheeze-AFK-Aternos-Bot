@@ -3,11 +3,11 @@
   "bot-account": {
     "username": "cheezebot",
     "password": "",
-    "type": "online"
+    "type": "offline"
   },
   "server": {
-    "ip": "cheezetest.aternos.me",
-    "port": 64147,
+    "ip": "cheezie.aternos.me",
+    "port": 25763,
     "version": "1.21.11",
     "try-creative": false
   },
@@ -38,35 +38,35 @@
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 100,
-    "max-reconnect-delay": 100
+    "auto-reconnect-delay": 2000,
+    "max-reconnect-delay": 120000
   },
   "movement": {
     "enabled": true,
     "circle-walk": {
       "enabled": true,
-      "radius": 2,
-      "speed": 2000
+      "radius": 4,
+      "speed": 3000
     },
     "look-around": {
       "enabled": true,
-      "interval": 3000
+      "interval": 5000
     },
     "random-jump": {
       "enabled": true,
-      "interval": 8000
+      "interval": 10000
     }
   },
   "modules": {
-    "avoidMobs": false,
-    "combat": false,
+    "avoidMobs": true,
+    "combat": true,
     "beds": false,
-    "chat": false,
-    "console-commands": false
+    "chat": true,
+    "console-commands": true
   },
   "combat": {
-    "attack-mobs": false,
-    "auto-eat": false
+    "attack-mobs": true,
+    "auto-eat": true
   },
   "beds": {
     "pick-up-day": false,
