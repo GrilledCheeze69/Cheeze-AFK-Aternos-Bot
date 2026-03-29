@@ -38,23 +38,23 @@
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 500,
-    "max-reconnect-delay": 1000
+    "auto-reconnect-delay": 100,
+    "max-reconnect-delay": 100
   },
   "movement": {
-    "enabled": false,
+    "enabled": true,
     "circle-walk": {
-      "enabled": false,
-      "radius": 4,
-      "speed": 3000
+      "enabled": true,
+      "radius": 2,
+      "speed": 2000
     },
     "look-around": {
-      "enabled": false,
-      "interval": 5000
+      "enabled": true,
+      "interval": 3000
     },
     "random-jump": {
       "enabled": true,
-      "interval": 10000
+      "interval": 8000
     }
   },
   "modules": {
