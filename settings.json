@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": "cheezie.aternos.me",
+    "ip": "Cheezie.aternos.me",
     "port": 25763,
     "version": "1.21.11",
     "try-creative": false
